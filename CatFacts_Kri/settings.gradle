@@ -1,0 +1,2 @@
+rootProject.name='CatFacts_Kri'
+include ':app'

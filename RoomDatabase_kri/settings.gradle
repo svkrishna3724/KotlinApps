@@ -1,0 +1,2 @@
+rootProject.name='RoomDatabase_kri'
+include ':app'
