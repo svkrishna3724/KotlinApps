@@ -26,26 +26,13 @@
         android:text="Save Data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <ScrollView
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/result"
-                android:textSize="20sp"
-                android:textColor="#000000"
-                android:textStyle="italic"
-                tools:text="RESULT"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-        </LinearLayout>
-
-    </ScrollView>
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview1"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        android:orientation="vertical"/>
 
 </LinearLayout>
