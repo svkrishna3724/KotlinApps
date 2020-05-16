@@ -55,9 +55,10 @@ class MainActivity : AppCompatActivity() {
         progressBar.visibility = View.GONE
         val rootObj = JSONObject(text)
         val results = rootObj.getJSONArray("all")
-        for (i in 0..results.length() - 1) {
-            val resultsobj: JSONObject = results.getJSONObject(1)
-            val name: String = resultsobj.getString("text")
+        for (i in 0..results.length()-1 ) {
+            val indexObj = results.getJSONObject(i)
+           // val resultsobj: JSONObject = indexObj.getJSONObject(1)
+            val name: String = indexObj.getString("text")
             list.add(MyData(name))
 
         }
