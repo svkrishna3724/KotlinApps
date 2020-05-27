@@ -1,0 +1,17 @@
+What is Android Broadcast Receiver?
+A broadcast receiver is a dormant component of the Android system. 
+Only an Intent (for which it is registered) can bring it into action. 
+The Broadcast Receiver’s job is to pass a notification to the user, 
+in case a specific event occurs.
+
+Using a Broadcast Receiver, 
+applications can register for a particular event.
+ Once the event occurs, the system will notify all the registered applications.
+ a Broadcast receiver triggers battery Low notification that you see on your mobile screen.
+
+Other instances caused by a Broadcast Receiver are new friend notifications, new friend feeds,
+ new message etc. on your Facebook app.
+
+In fact, you see broadcast receivers at work all the time.
+ Notifications like incoming messages, WiFi Activated/Deactivated message etc. 
+are all real-time announcements of what is happening in the Android system and the applications.
