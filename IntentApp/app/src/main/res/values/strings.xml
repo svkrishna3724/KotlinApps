@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentApp</string>
+    <string name="url">Enter Your url</string>
+    <string name="k1">Submit</string>
+</resources>
